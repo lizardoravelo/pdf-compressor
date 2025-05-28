@@ -1,0 +1,17 @@
+{
+  "name": "ghostscript-pdf-compressor",
+  "version": "1.0.0",
+  "description": "PDF compressor using Ghostscript CLI",
+  "main": "compress.js",
+  "type": "module",
+  "scripts": {
+    "compress-basic": "node compress.js --mode=basic",
+    "compress-mega": "node compress.js --mode=mega"
+  },
+  "keywords": ["pdf", "compression", "ghostscript", "cli"],
+  "author": "Julio Lizardo",
+  "license": "MIT",
+  "dependencies": {
+    "execa": "^9.5.3"
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "name": "rasterizer-pdf-compressor",
+    "version": "1.0.0",
+    "description": "PDF rasterization-based compressor using pdftoppm + ImageMagick",
+    "main": "compress.js",
+    "type": "module",
+    "scripts": {
+      "compress": "node compress.js"
+    },
+    "keywords": ["pdf", "compression", "imagemagick", "raster", "cli"],
+    "author": "Julio Lizardo",
+    "license": "MIT"
+  }
+  
